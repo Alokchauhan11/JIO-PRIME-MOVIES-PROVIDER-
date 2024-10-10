@@ -187,7 +187,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton("ʀᴇ𝚀ᴜᴇꜱᴛ ᴍᴏᴠɪᴇ", url='https://t.me/+TdzVBWBIji8yMmFl'),
                             InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ', url='https://t.me/+hGjxqkzl10g0OTA1')
                         ],[
-                            InlineKeyboardButton('ᴊᴏɪɴ ʀᴇxᴏɴʙʟᴀᴄᴋ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data="seeplans                      
+                            InlineKeyboardButton('ᴊᴏɪɴ ʀᴇxᴏɴʙʟᴀᴄᴋ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data="seeplans")                      
                         ]]
                         reply_markup = InlineKeyboardMarkup(buttons)
                         m=await message.reply_sticker("CAACAgUAAxkBAAJ_9GcBHjuwkFd321YlOG4WOtdDCLv7AAIhFAACTiwJVPNa_9D21RH6NgQ") 
@@ -212,7 +212,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton("ʀᴇ𝚀ᴜᴇꜱᴛ ᴍᴏᴠɪᴇ", url='https://t.me/+TdzVBWBIji8yMmFl'),
                             InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ', url='https://t.me/+hGjxqkzl10g0OTA1')
                         ],[
-                            InlineKeyboardButton('ᴊᴏɪɴ ʀᴇxᴏɴʙʟᴀᴄᴋ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data="seeplans                      
+                            InlineKeyboardButton('ᴊᴏɪɴ ʀᴇxᴏɴʙʟᴀᴄᴋ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data="seeplans")                      
                         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAJ_9GcBHjuwkFd321YlOG4WOtdDCLv7AAIhFAACTiwJVPNa_9D21RH6NgQ") 
@@ -257,22 +257,20 @@ async def start(client:Client, message):
         )
        # await client.send_message(
        #     chat_id=message.from_user.id,
-       #     text="<b>🙁 ғɪʀꜱᴛ ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ ᴛʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴍᴏᴠɪᴇ, ᴏᴛʜᴇʀᴡɪꜱᴇ ʏᴏᴜ ᴡɪʟʟ ɴᴏᴛ ɢᴇᴛ ɪᴛ.\n\nᴄʟɪᴄᴋ ᴊᴏɪɴ ɴᴏᴡ ʙᴜᴛᴛᴏɴ 👇</b>",
+       #     text="<b>ꜰɪʀꜱᴛ ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ ᴛʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴍᴏᴠɪᴇ, ᴏᴛʜᴇʀᴡɪꜱᴇ ʏᴏᴜ ᴡɪʟʟ ɴᴏᴛ ɢᴇᴛ ɪᴛ.\n\nᴄʟɪᴄᴋ ᴊᴏɪɴ ɴᴏᴡ ʙᴜᴛᴛᴏɴ 👇</b>",
        #     reply_markup=InlineKeyboardMarkup(btn),
        #     parse_mode=enums.ParseMode.HTML
     #    )
         return
 
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[
-            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
-                        ],[
+        buttons = [[           
                             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
                             InlineKeyboardButton("ʀᴇ𝚀ᴜᴇꜱᴛ ᴍᴏᴠɪᴇ", url='https://t.me/+TdzVBWBIji8yMmFl'),
                             InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ', url='https://t.me/+hGjxqkzl10g0OTA1')
                         ],[
-                            InlineKeyboardButton('ᴊᴏɪɴ ʀᴇxᴏɴʙʟᴀᴄᴋ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data="seeplans                      
+                            InlineKeyboardButton('ᴊᴏɪɴ ʀᴇxᴏɴʙʟᴀᴄᴋ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data="seeplans")                      
                         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         return await message.reply_photo(photo=START_IMG, caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
