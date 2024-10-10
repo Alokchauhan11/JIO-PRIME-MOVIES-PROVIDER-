@@ -182,17 +182,12 @@ async def start(client:Client, message):
                 newPoint = await db.get_point(refUserId)
                 if AUTH_CHANNEL and await is_req_subscribed(client, message):
                         buttons = [[
-                            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("𝗠𝗢𝗩𝗜𝗘 𝗚𝗥𝗢𝗨𝗣🔎", url='https://t.me/+OG3sftDEbZ9kMzFl'),
-                            InlineKeyboardButton('𝙰𝙳𝙼𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 💌', url='https://t.me/PRIME_ADMIN_SUPPORT_ProBOT')
+                            InlineKeyboardButton("ʀᴇ𝚀ᴜᴇꜱᴛ ᴍᴏᴠɪᴇ", url='https://t.me/+TdzVBWBIji8yMmFl'),
+                            InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ', url='https://t.me/+hGjxqkzl10g0OTA1')
                         ],[
-                            InlineKeyboardButton('⭐ 𝗥𝗲𝗺𝗼𝘃𝗲 𝗔𝗱𝘀 𝗚𝗲𝘁 𝗗𝗶𝗿𝗲𝗰𝘁 𝗙𝗶𝗹𝗲 ⭐', callback_data="seeplans")
-                        ],[
-                            InlineKeyboardButton('🔥 𝐏𝐑𝐈𝐌𝐄 𝐁𝐎𝐓𝐬 🔥', url='https://t.me/Prime_Botz'),
-                            InlineKeyboardButton('✨ 𝐏𝐑𝐈𝐌𝐄 𝐌𝐎𝐕𝐈𝐄s ✨', url='https://t.me/Prime_Movies4U')
-                        ],[
-                            InlineKeyboardButton('💫 𝗖𝗥𝗘𝗔𝗧𝗢𝗥 💫', url='https://t.me/Prime_Nayem')
+                            InlineKeyboardButton('ᴊᴏɪɴ ʀᴇxᴏɴʙʟᴀᴄᴋ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data="seeplans                      
                         ]]
                         reply_markup = InlineKeyboardMarkup(buttons)
                         m=await message.reply_sticker("CAACAgUAAxkBAAJ_9GcBHjuwkFd321YlOG4WOtdDCLv7AAIhFAACTiwJVPNa_9D21RH6NgQ") 
@@ -212,17 +207,12 @@ async def start(client:Client, message):
             pass
     if len(message.command) != 2:
         buttons = [[
-                            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("𝗠𝗢𝗩𝗜𝗘 𝗚𝗥𝗢𝗨𝗣🔎", url='https://t.me/+OG3sftDEbZ9kMzFl'),
-                            InlineKeyboardButton('𝙰𝙳𝙼𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 💌', url='https://t.me/PRIME_ADMIN_SUPPORT_ProBOT')
+                            InlineKeyboardButton("ʀᴇ𝚀ᴜᴇꜱᴛ ᴍᴏᴠɪᴇ", url='https://t.me/+TdzVBWBIji8yMmFl'),
+                            InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ', url='https://t.me/+hGjxqkzl10g0OTA1')
                         ],[
-                            InlineKeyboardButton('⭐ 𝗥𝗲𝗺𝗼𝘃𝗲 𝗔𝗱𝘀 𝗚𝗲𝘁 𝗗𝗶𝗿𝗲𝗰𝘁 𝗙𝗶𝗹𝗲 ⭐', callback_data="seeplans")
-                        ],[
-                            InlineKeyboardButton('🔥 𝐏𝐑𝐈𝐌𝐄 𝐁𝐎𝐓𝐬 🔥', url='https://t.me/Prime_Botz'),
-                            InlineKeyboardButton('✨ 𝐏𝐑𝐈𝐌𝐄 𝐌𝐎𝐕𝐈𝐄s ✨', url='https://t.me/Prime_Movies4U')
-                        ],[
-                            InlineKeyboardButton('💫 𝗖𝗥𝗘𝗔𝗧𝗢𝗥 💫', url='https://t.me/Prime_Nayem')
+                            InlineKeyboardButton('ᴊᴏɪɴ ʀᴇxᴏɴʙʟᴀᴄᴋ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data="seeplans                      
                         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAJ_9GcBHjuwkFd321YlOG4WOtdDCLv7AAIhFAACTiwJVPNa_9D21RH6NgQ") 
@@ -250,12 +240,12 @@ async def start(client:Client, message):
                 kk, grp_id, file_id = chksub_data.split('_', 2)
                 pre = 'checksubp' if kk == 'filep' else 'checksub'
                 btn.append(
-                    [InlineKeyboardButton("♻️ ᴛʀʏ ᴀɢᴀɪɴ ♻️", callback_data=f"checksub#{file_id}#{int(grp_id)}")]
+                    [InlineKeyboardButton("🔃 ᴛʀʏ ᴀɢᴀɪɴ 🔃", callback_data=f"checksub#{file_id}#{int(grp_id)}")]
                 )
             except (IndexError, ValueError):
                 print('IndexError: ', IndexError)
                 btn.append(
-                    [InlineKeyboardButton("♻️ ᴛʀʏ ᴀɢᴀɪɴ ♻️", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")]
+                    [InlineKeyboardButton("🔃 ᴛʀʏ ᴀɢᴀɪɴ 🔃", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")]
                 )
         reply_markup=InlineKeyboardMarkup(btn)
         await client.send_photo(
@@ -277,15 +267,12 @@ async def start(client:Client, message):
         buttons = [[
             InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("𝗠𝗢𝗩𝗜𝗘 𝗚𝗥𝗢𝗨𝗣🔎", url='https://t.me/+OG3sftDEbZ9kMzFl'),
-                            InlineKeyboardButton('𝙰𝙳𝙼𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 💌', url='https://t.me/PRIME_ADMIN_SUPPORT_ProBOT')
+                            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton('⭐ 𝗥𝗲𝗺𝗼𝘃𝗲 𝗔𝗱𝘀 𝗚𝗲𝘁 𝗗𝗶𝗿𝗲𝗰𝘁 𝗙𝗶𝗹𝗲 ⭐', callback_data="seeplans")
+                            InlineKeyboardButton("ʀᴇ𝚀ᴜᴇꜱᴛ ᴍᴏᴠɪᴇ", url='https://t.me/+TdzVBWBIji8yMmFl'),
+                            InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ', url='https://t.me/+hGjxqkzl10g0OTA1')
                         ],[
-                            InlineKeyboardButton('🔥 𝐏𝐑𝐈𝐌𝐄 𝐁𝐎𝐓𝐬 🔥', url='https://t.me/Prime_Botz'),
-                            InlineKeyboardButton('✨ 𝐏𝐑𝐈𝐌𝐄 𝐌𝐎𝐕𝐈𝐄s ✨', url='https://t.me/Prime_Movies4U')
-                        ],[
-                            InlineKeyboardButton('💫 𝗖𝗥𝗘𝗔𝗧𝗢𝗥 💫', url='https://t.me/Prime_Nayem')
+                            InlineKeyboardButton('ᴊᴏɪɴ ʀᴇxᴏɴʙʟᴀᴄᴋ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data="seeplans                      
                         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         return await message.reply_photo(photo=START_IMG, caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
@@ -401,8 +388,8 @@ async def start(client:Client, message):
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup(btn)
     )
-    delCap = "<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u> {} </u> 🙂 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs')
-    afterDelCap = "<b>ʏᴏᴜʀ ғɪʟᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ {} ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!</b>".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs') 
+    delCap = "𝗙𝗶𝗹𝗲 𝘄𝗶𝗹𝗹 𝗯𝗲 𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗶𝗻 𝟭𝟬 𝗠𝗶𝗻𝘂𝘁𝗲𝘀 𝗕𝗲𝗰𝗮𝘂𝘀𝗲 𝗼𝗳 𝗰𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁 𝗶𝘀𝘀𝘂𝗲..✍🏻\n\n𝗜𝗳 𝘆𝗼𝘂 𝘄𝗮𝗻𝘁 𝘁𝗼 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝘁𝗵𝗶𝘀 𝗳𝗶𝗹𝗲, 𝗞𝗶𝗻𝗱𝗹𝘆 𝗳𝗼𝗿𝘄𝗼𝗿𝗱 𝘁𝗵𝗶𝘀 𝗳𝗶𝗹𝗲 𝘁𝗼 𝗮𝗻𝘆 𝗼𝘁𝗵𝗲𝗿 𝗰𝗵𝗮𝘁 𝗼𝗿 𝗶𝗻 𝘆𝗼𝘂𝗿 [𝘀𝗮𝘃𝗲𝗱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲𝘀] 𝗮𝗻𝗱 𝘀𝘁𝗮𝗿𝘁 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝘁𝗵𝗲𝗿𝗲...".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs')
+    afterDelCap = "𝐘𝐨𝐮𝐫 𝐟𝐢𝐥𝐞 𝐢𝐬 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐝𝐞𝐥𝐞𝐭𝐞𝐝".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs') 
     replyed = await message.reply(
         delCap,
         reply_to_message_id= toDel.id)
