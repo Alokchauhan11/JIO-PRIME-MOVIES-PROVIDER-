@@ -117,7 +117,7 @@ User - {}
 ⭐ Rating: {rating} / 10</b>
 🔥 POWERED BY @Rexonuniversebot 🔥"""
 
-    FILE_CAPTION = """<b>⚡File uploaded by [𝗥𝗲𝘅𝗼𝗻 𝗕𝗹𝗮𝗰𝗸 ](https://t.me/RexonBlack)</b>⚡\n\n📂 Fɪʟᴇɴᴀᴍᴇ : <i><a href='https://telegram.me/ReconBlack'>{file_name}</a></i>\n\n\n»𝗠𝗼𝘃𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽 ➠ <a href=https://t.me/+TdzVBWBIji8yMmFl>𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏 </a>\n\n»𝗡𝗘𝗪 𝗠𝗢𝗩𝗜𝗘𝗦 ➠ <a href=https://t.me/+N6M8RWRxTZo1MWVl>𝐌𝐎𝐕𝐈𝐄𝐒 𝐀𝐃𝐃𝐀</a>\n\n\n»𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 : <a href=https://t.me/RexonBlack>𝗥𝗲𝘅𝗼𝗻 𝗕𝗹𝗮𝗰𝗸 🔥</a></b>""" 
+    FILE_CAPTION = """<b>Fɪʟᴇɴᴀᴍᴇ:<i><a href='https://telegram.me/ReconBlack'>{file_name}</a></i>\n\n➠ Team @RexonBlack copyright.</b>""" 
     
 
     ALRT_TXT = """THIS IS NOT YOUR REQUEST❕PLEASE REQUEST YOURS."""
@@ -235,9 +235,11 @@ User - {}
  ❏ 130₹    ➠    𝟶𝟹 ᴍᴏɴᴛʜ
  ❏ 250₹    ➠    𝟶𝟼 ᴍᴏɴᴛʜ
  ❏ 370₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ
-
+
+
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
-
+
+
 </b>"""
 
     PREPLANSS_TXT = """<b>👋 ʜᴇʏ {}
