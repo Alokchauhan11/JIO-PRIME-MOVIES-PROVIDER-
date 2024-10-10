@@ -13,8 +13,8 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '25425840'))
-API_HASH = environ.get('API_HASH', 'e6ea2eca4aa38e965511f323e5ffa578')
+API_ID = int(environ.get('API_ID', '24979349'))
+API_HASH = environ.get('API_HASH', 'ceef50502546a4ecdab59551496c4d57')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -26,24 +26,24 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+OG3sftDEbZ9kMzFl')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002110875043').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://frankanimes:qayplmwsxokn@cluster0.xksjqdt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002196408894'))  
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002152618409'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002184630716'))
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002196408894'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002043502363')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002245813234'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002296355008')
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002110806325'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+QuDDYUqI_r01ODg1') #Support group link ( make sure bot is admin )
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002105718537'))  
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1001928697625'))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1001928697625'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001928697625'))
+auth_channel = environ.get('AUTH_CHANNEL', '-1001874884561')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002143601497'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1001928697625')
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002047293508'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/rexonblacksupport') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/Prime_Channel_Movies_Dawnload/13")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
