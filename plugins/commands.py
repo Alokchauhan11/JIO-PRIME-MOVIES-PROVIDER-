@@ -182,12 +182,12 @@ async def start(client:Client, message):
                 newPoint = await db.get_point(refUserId)
                 if AUTH_CHANNEL and await is_req_subscribed(client, message):
                         buttons = [[
-                            InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("𝗠𝗢𝗩𝗜𝗘 𝗚𝗥𝗢𝗨𝗣🔎", url='https://t.me/+OG3sftDEbZ9kMzFl'),
-                            InlineKeyboardButton('𝙰𝙳𝙼𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 💌', url='https://t.me/PRIME_ADMIN_SUPPORT_ProBOT')
+                            InlineKeyboardButton("ʀᴇ𝚀ᴜᴇꜱᴛ ᴍᴏᴠɪᴇ", url='https://t.me/+TdzVBWBIji8yMmFl'),
+                            InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ', url='https://t.me/rexonblack')
                         ],[
-                            InlineKeyboardButton('⭐ 𝗥𝗲𝗺𝗼𝘃𝗲 𝗔𝗱𝘀 𝗚𝗲𝘁 𝗗𝗶𝗿𝗲𝗰𝘁 𝗙𝗶𝗹𝗲 ⭐', callback_data="seeplans")
+                            InlineKeyboardButton('ᴊᴏɪɴ ʀᴇxᴏɴʙʟᴀᴄᴋ ᴘʀᴇᴍɪᴜᴍ💎', callback_data="seeplans")
                         ],[
                             InlineKeyboardButton('🔥 𝐏𝐑𝐈𝐌𝐄 𝐁𝐎𝐓𝐬 🔥', url='https://t.me/Prime_Botz'),
                             InlineKeyboardButton('✨ 𝐏𝐑𝐈𝐌𝐄 𝐌𝐎𝐕𝐈𝐄s ✨', url='https://t.me/Prime_Movies4U')
