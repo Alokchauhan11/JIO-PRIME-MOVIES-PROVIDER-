@@ -117,7 +117,8 @@ User - {}
 ⭐ Rating: {rating} / 10</b>
 🔥 POWERED BY @Rexonuniversebot 🔥"""
 
-    FILE_CAPTION = """Fɪʟᴇɴᴀᴍᴇ:<i><a href='https://telegram.me/RexonBlack'>{file_name}</a></i>\n\n➠ Team @RexonBlack copyright."""
+    FILE_CAPTION = """𝗛𝗲𝗿𝗲'𝘀 𝗬𝗼𝘂𝗿 𝗠𝗼𝘃𝗶𝗲..\n\n<i><a href='https://t.me/rexonblack'>📂Fɪʟᴇɴᴀᴍᴇ :{file_name}</a></i>
+<i><a href='https://t.me/rexonblack'>Size⚙️:{file_size}</a></i>\n\n➠ Team @RexonBlack copyright."""
     
 
     ALRT_TXT = """THIS IS NOT YOUR REQUEST❕PLEASE REQUEST YOURS."""
