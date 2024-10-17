@@ -39,7 +39,7 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001928697625'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1001874884561')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002143601497'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1001928697625')
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002047293508'))
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002025233065'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/rexonblacksupport') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
